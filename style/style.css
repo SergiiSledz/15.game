@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #a9a9a9;
+    background-image: url(../img/bg_1.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    height: 80.4vh;
+    box-sizing: border-box;
+}
+
+.container{
+    border: 3px solid #ffc600;
+    border-radius: 5px;
+    height: 80.4vh;
+    width: 80.5vh;
+    margin: 5vh auto 5vh;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.box{
+    position: absolute;
+    background-color: #00000080;
+    border: 2px solid #000;
+    border-radius: 4px;
+    width: 19.8vh;
+    height: 19.8vh;
+    box-sizing: border-box;
+}
+
+.box:hover{
+    border: 2px solid #ffc600;
+}
+
+.box>p{
+    text-align: center;
+    line-height: 19.8vh;
+    vertical-align: bottom;
+    font-size: 5em;
+    color: #fff;
+}
+
+.box:hover>p{
+    color: #ffc600;
+}
+
+.start_button{
+    display: block;
+    margin: auto;
+
+    height: 50px;
+    width: 150px;
+
+    background-color: #00000050;
+    border: 2px solid #ffc600;
+    border-radius: 5px;
+
+    color: #ffc600;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.start_button:hover,
+.start_button:active{
+    border: 2px solid #bada55;
+}
+
+
+/*      --===   BOX COORDINATES   ===--    */
+.box_1{
+    top: 0vh;
+    left: 0vh;
+}
+
+.box_2{
+    top: 0vh;
+    left: 20vh;
+}
+
+.box_3{
+    top: 0vh;
+    left: 40vh;
+}
+
+.box_4{
+    top: 0vh;
+    left: 60vh;
+}
+
+.box_5{
+    top: 20vh;
+    left: 0vh;
+}
+
+.box_6{
+    top: 20vh;
+    left: 20vh;
+}
+
+.box_7{
+    top: 20vh;
+    left: 40vh;
+}
+
+.box_8{
+    top: 20vh;
+    left: 60vh;
+}
+
+.box_9{
+    top: 40vh;
+    left: 0vh;
+}
+
+.box_10{
+    top: 40vh;
+    left: 20vh;
+}
+
+.box_11{
+    top: 40vh;
+    left: 40vh;
+}
+
+.box_12{
+    top: 40vh;
+    left: 60vh;
+}
+
+.box_13{
+    top: 60vh;
+    left: 0vh;
+}
+
+.box_14{
+    top: 60vh;
+    left: 20vh;
+}
+
+.box_15{
+    top: 60vh;
+    left: 40vh;
+}
+
+.box_16{
+    top: 60vh;
+    left: 60vh;
+}
+
+/*      --===   END BOX COORDINATES   ===--    */

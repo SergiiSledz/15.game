@@ -14,7 +14,7 @@ body{
 }
 
 .wrapper{
-    height: 80.4vh;
+    /* height: 80.4vh; */
     box-sizing: border-box;
 }
 
@@ -40,6 +40,10 @@ body{
 
 .box:hover{
     border: 2px solid #ffc600;
+}
+
+.container>.active{
+    border-color: red;
 }
 
 .box>p{
